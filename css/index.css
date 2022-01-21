@@ -26,3 +26,20 @@ hr {
 img {
   max-width: 100%;
 }
+
+.card {
+  display: block;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+}
+.card-title {
+  font-size: 1rem;
+  padding: 0.75rem;
+  font-weight: bold;
+}
+.card-body {
+  font-size: 1rem;
+}
+.card-body a {
+  text-decoration: underline;
+}
