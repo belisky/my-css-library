@@ -5,6 +5,8 @@
 
 // base & layout
 @import 'base';
+@import 'breakpoints';
+@import 'grid';
 
 
 //colors
@@ -18,4 +20,3 @@
 
 //utilities (margin,padding,spacing)
 @import 'utilities';
-@import 'breakpoints';
