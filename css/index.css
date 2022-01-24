@@ -3690,6 +3690,37 @@ img {
   font-size: 2rem;
 }
 
-.font-xml {
+.font-xxl {
   font-size: 3rem;
+}
+
+@media (min-width: 0) {
+  .responsive-test {
+    background-color: red;
+  }
+}
+@media (min-width: 480px) {
+  .responsive-test {
+    background-color: blue;
+  }
+}
+@media (min-width: 720px) {
+  .responsive-test {
+    background-color: green;
+  }
+}
+@media (min-width: 960px) {
+  .responsive-test {
+    background-color: purple;
+  }
+}
+@media (min-width: 1200px) {
+  .responsive-test {
+    background-color: orange;
+  }
+}
+@media (min-width: 1400px) {
+  .responsive-test {
+    background-color: pink;
+  }
 }
